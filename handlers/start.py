@@ -139,7 +139,7 @@ async def ping_pong(client: Client, message: Message):
 @Client.on_message(command(["alive", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"{BOT_IMAGE}
+        photo=f"{BOT_IMAGE}"
         caption="🕊️ Hey I'm alive for playing music !\n\n🔴 Bot name : Kennedy music\n",
         reply_markup=InlineKeyboardMarkup(
             [
