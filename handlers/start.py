@@ -7,6 +7,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from helpers.decorators import authorized_users_only
 
 
+BOT_IMAGE = https://telegra.ph/file/37f612f51613199a45ddd.jpg
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
 TIME_DURATION_UNITS = (
@@ -134,3 +135,22 @@ async def ping_pong(client: Client, message: Message):
         "🏓 **PONG!!**\n"
         f" `{delta_ping * 1000:.3f} ms`"
     )
+
+
+@Client.on_message(command(["alive", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
+async def start(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"{BOT_IMAGE}
+        caption="🕊️ Hey I'm alive for playing music !\n\n🔴 Bot name : Kennedy music\n",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "Support", url="https://t.me/Kenbotsupport"
+                    )
+                ]
+            ]
+        )
+    )
+
+        
