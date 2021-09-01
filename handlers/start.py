@@ -7,7 +7,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from helpers.decorators import authorized_users_only
 
 
-BOT_IMAGE = https://telegra.ph/file/37f612f51613199a45ddd.jpg
+BOT_IMAGE = https://telegra.ph/file/37f612f51613199a45ddd.jpg()
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
 TIME_DURATION_UNITS = (
