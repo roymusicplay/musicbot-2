@@ -43,10 +43,10 @@ async def start_(client: Client, message: Message):
                         "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "ʀᴇᴘᴏ​​", url="https://github.com/KennedyProject/KennedyXMusic"
+                        "GROUP​​", url="https://t.me/DOSTI_GROUP_1234"
                     ),
                     InlineKeyboardButton(
-                        "ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{GROUP_SUPPORT}")
+                        "ᴜᴘᴅᴀᴛᴇs", url="https://t.me/ABOUT_ABHINAS")
                 ],[
                     InlineKeyboardButton(
                         "ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​ ❓​", callback_data="cbcmds"
