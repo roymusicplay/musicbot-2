@@ -21,8 +21,7 @@
         },
         "BOT_USERNAME": {
             "description": "isi dengan username bot musikmu tanpa menggunakan @",
-            "required": true,
-            "value": "KenzxMusicBot"
+            "required": true
         },
         "BOT_IMG": {
             "description": "Photo untuk alive.",
@@ -31,18 +30,17 @@
         },
         "ASSISTANT_NAME": {
             "description": "isi dengan username asistenmu tanpa menggunakan @",
-            "required": true,
-            "value": "kennedyassistant"
+            "required": true
         },
         "BG_IMAGE": {
             "description": "isi dengan link telegraph background mu",
             "required": false,
-            "value": "https://telegra.ph/file/0f6f8a8a5ad69fe5ecf3d.png"
+            "value": "https://telegra.ph/file/20147c4f049e2c1f2f248.png"
         },
         "OWNER_NAME": {
             "description": "isi dengan username mu tanpa menggunakan @",
             "required": false,
-            "value": "xgothboi"
+            "value": "abhinasroy"
         },
         "API_ID": {
             "description": "APP ID mu dari my.telegram.org",
@@ -59,7 +57,7 @@
         "DURATION_LIMIT": {
             "description": "max durasi untuk video yang diunduh (dalam menit).",
             "required": true,
-            "value": "15"
+            "value": "60"
         },
         "PMPERMIT": {
             "description": "pm-permit untuk asisten.",
@@ -69,12 +67,12 @@
         "UPDATES_CHANNEL": {
             "description": "isi dengan username channel kamu, jika tidak punya lewati saja",
             "required": false,
-            "value": "KennedyProject"
+            "value": "ABOUT_ABHINAS"
         },
         "GROUP_SUPPORT": {
             "description": "isi dengan username grup kamu, jika tidak punya skip saja",
             "required": false,
-            "value": "kenbotsupport"
+            "value": "DOSTI_GROUP_1234"
         }
     },
     "buildpacks": [
