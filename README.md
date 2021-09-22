@@ -12,7 +12,7 @@
 
 ### Get STRING_SESSION from here:
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@KennedyProject/Ken-String-Session#main.py)
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@roymusicplay/String-Session-2#main.py)
 
 
 ### Commands 🛠
