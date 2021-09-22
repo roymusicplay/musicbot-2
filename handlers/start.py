@@ -43,7 +43,7 @@ async def start_(client: Client, message: Message):
                         "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "GROUP​​", url="https://t.me/DOSTI_GROUP_1234"
+                        "GROUP​​", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
                         "ᴜᴘᴅᴀᴛᴇs", url="https://t.me/ABOUT_ABHINAS")
