@@ -18,7 +18,7 @@
 ### Commands 🛠
 
 - `/splay <song name>` - play song you requested
-- '/play <song name>' - play song direct youtube 
+- `/play <song name>` - play song direct youtube 
 - `/playlist` - Show now playing list
 - `/current` - Show now playing
 - `/song <song name>` - download songs you want quickly
