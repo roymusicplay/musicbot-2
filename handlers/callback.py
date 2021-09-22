@@ -89,7 +89,7 @@ __{bn} licensed under the GNU General Public License v.3.0__
             [
                 [
                     InlineKeyboardButton(
-                        "sᴏᴜʀᴄᴇ​​", url="https://t.me/DOSTI_GROUP_1234"
+                        "HELP GROUP​​", url="https://t.me/DOSTI_GROUP_1234"
                     ),
                     InlineKeyboardButton(
                         "ʙᴀᴄᴋ​", callback_data="cbadvanced"
